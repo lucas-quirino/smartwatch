@@ -1,0 +1,195 @@
+* {
+    margin: 0 ; padding: 0;
+    box-sizing: border-box;
+    font-family : 'Poppins' , sans-serif;
+}
+
+body {
+    position: absolute;
+    margin: 0 auto;
+    width: 100vw;
+    height: auto;
+}
+
+.wrapper {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100wh;
+    height: 100vh;
+    background-image: repeating-linear-gradient(36deg, rgba(17, 0, 0, 0.25), rgba(70, 73, 255, 0.25) 1px, transparent 0px, transparent 2px);
+    background-color: #cbcaff;
+}
+
+.text-bg {
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.281);
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+.text-information {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-style: italic;
+}
+
+.smart {
+    position: fixed;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.homescreem {
+    position: fixed;
+    display: flex;
+    align-items: end;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+.watchband {
+    width: 90px;
+    height: 100%;
+    background-image: repeating-linear-gradient(36deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 0px, transparent 2px);
+    background-color: #000a29;
+    background-size: 12px;
+    box-shadow: 0px 4px 14px 3px black;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 410px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid rgba(209, 209, 209, 0);
+    box-shadow: 0px 4px 14px 3px black;
+    border: 1px solid rgb(209, 209, 209);
+    color: aqua;
+    padding: 8px;
+}
+
+#relogioDigital {
+    font-family: 'Nova Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    margin: 1rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+
+    background-color: rgba(34, 34, 34, 0.089);
+    color : rgb(0, 0, 0);
+    border: 0;
+    border-radius: 8px;
+    font-size : 2rem;
+    text-align : center;
+    display: none;
+}
+
+#telaSmart {
+    font-family: 'DM Mono', monospace;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    user-select: none;
+    padding: 1rem;
+    border-radius: 20px;
+    background: rgba(17, 17, 17, 0);
+    color: cyan;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 10px 10px 14px 10px rgba(17, 17, 17, 0.45);
+}
+
+#relogioSmart {
+    user-select: none;
+    margin-top: 1rem;
+}
+
+#hSmart, #mSmart {
+    font-size: 2rem;
+}
+
+#sSmart {
+    font-size: 1rem;
+}
+
+#dataSmart {
+    user-select: none;
+    color: magenta;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+#semana {
+    color: greenyellow;
+}
+
+@keyframes piscar {
+    to {
+        opacity: 1;
+    }
+    from {
+        opacity: 0;
+    }
+}
+
+.doisPontos {
+    animation: piscar 1s infinite;
+}
+
+.doisPontos:last-child {
+    font-size: 0.5rem;
+}
+
+#temperatura {
+    user-select: none;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    color: #fff;
+}
+
+.fadeInDownBig {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInDownBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInDownBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+}

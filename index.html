@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Smartwatch app</title>
+</head>
+<body onload="moveRelogio()">
+
+    <div class="wrapper">
+
+        <div class="text-bg smart">Smartwatch</div>
+        <div class="watchband fadeInDownBig"></div>
+        <div class="watch fadeInDownBig">
+            <div id='telaSmart'>
+
+                <div id='relogioSmart'>
+                    <span id='hSmart'></span><span class='doisPontos'>:</span><span id='mSmart'></span><span class='doisPontos'>:</span><span id='sSmart'></span>
+                </div>
+
+                <div id='dataSmart'>
+                    <span id='semana'></span>
+                    <span id='data'></span>
+                </div>
+
+                <div id="temperatura">
+                    <h1 class="city"></h1>
+                    <h2>🌡<span id="temp"></span>°C 💧<span id='umidad'></span>%</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="watchband fadeInDownBig"></div>
+            <div class="text-bg homescreem">
+                <div id='relogioDigital'>
+                <span id='h'></span>:<span id='m'></span>:<span id='s'></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-information">
+        *Active your location for a full experience.
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
