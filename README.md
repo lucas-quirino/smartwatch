@@ -20,4 +20,4 @@ This project is responsive.
 
 <br>
 
-![Smartwatch](images/readme.gif)
+![Smartwatch image exemple](images/readme.gif)
