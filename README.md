@@ -20,6 +20,4 @@ This project is responsive.
 
 <br>
 
-<picture>
-  <img alt="Let's work" src="images/readme.gif" width="60%">
-</picture>
+![Smartwatch](images/readme.gif)
