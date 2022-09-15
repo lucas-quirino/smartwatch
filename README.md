@@ -4,7 +4,7 @@
 
 <br>
 
-### <a href="https://smartwatch-nine.vercel.app/">Visit the project in Versel.</a>
+### <a href="https://smartwatch-nine.vercel.app/">Visit the project in Vercel.</a>
 
 <br>
 
