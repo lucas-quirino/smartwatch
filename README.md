@@ -1,8 +1,8 @@
 Vercel link: https://smartwatch-three.vercel.app/
 
-### Smartwatch with location dates ⏰⌚
+## Smartwatch with location dates ⏰⌚
 
-#### A digital clock with location to receive data. Its structure was entirely created in CSS.
+### A digital clock with location to receive data. Its structure was entirely created in CSS.
 
 <br>
 
